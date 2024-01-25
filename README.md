@@ -1,39 +1,35 @@
-# Finances
+# Magic the Gathering Collection
 
 ![mtg_collection](https://github.com/Doni-S/MTGCollection/assets/72990446/69d7cc85-571d-46e0-adfb-f388d4ff146c)
 
-This is a repository to analyze my finances.
+This is a repository to analyze my MTG Collection.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+use [ManaBox](https://manabox.app/)  to upload collection there and export as a .csv.
+[ManaBox](https://manabox.app/) exports .csv with current market prices.
 
-```bash
-pip install foobar
-```
+## Background
+I needed a way to track my collection and track the net value from the product purchased.
 
-## Usage
+The other apps and websites I used did not have the option to add in the prices when the product was bought compared to current prices.
 
-```python
-import foobar
+I never saw an option to include sealed product, they only offered information for singles. 
 
-# returns 'words'
-foobar.pluralize('word')
+## Categorizations
+I listed the name of each card along with the set code to distiguish between cards of the same name but different printings since they often times have different prices.
 
-# returns 'geese'
-foobar.pluralize('goose')
+Filters for about every aspect of a card relating to your collections value, so I excluded categories like *Color*, *Flavor Text*, *Card Type*, *Text*, *Abilities*, *Mana Value*, *Power and Toughness* etc.
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+## Dashboard
 
-## Contributing
+There are categorization filters if you need to see something more specific in your collection.
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+At a glance we can see the number for the **Total** portforlio value, **Least valuble card**, **Most Valuble Card**, **Average Price** and **Total Number** of cards in the collection.
 
-Please make sure to update tests as appropriate.
+The **Pie Chart** is set to the percentage of different rarities in the collection.
 
-## License
+The **Bar Graph** has all the value of each individual card in asceding order (Left=Lowest) (Right=Highest)
 
-[MIT](https://choosealicense.com/licenses/mit/)
+The bottom chart is all the information at once to have an overall view in one place.
+
