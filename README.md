@@ -1,6 +1,8 @@
-# Foobar
+# Finances
 
-Foobar is a Python library for dealing with word pluralization.
+![mtg_collection](https://github.com/Doni-S/MTGCollection/assets/72990446/69d7cc85-571d-46e0-adfb-f388d4ff146c)
+
+This is a repository to analyze my finances.
 
 ## Installation
 
